@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>Visual Studio Code - code editor</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+   <!-- Nav Section -->
+    <div class="bg-darkGray overflow-x-hidden">
+      <nav class="container md:mx-auto relative p-6 h-8 flex items-center md:h-14">
+        <!-- Flex container for Nav items -->
+        <div class="container mx-2 flex flex-col md:justify-start xl:justify-around  md:h-14 md:flex-row">
+          <!-- Logo and Menu --> 
+          <div id="logoMenu" class="flex items-center">
+              <!-- Logo -->
+              <div id="logo" class="flex items-center w-[280px]">
+                <img src="./images/vscode.svg" alt="" class="h-8">
+                <span class="text-white ml-2 md:text-[20px]">Visual Studio Code</span>
+              </div>
+  
+              <!-- Menu Items -->
+              <div class="hidden space-x-5 text-midGray lg:flex">
+                <a href="#" class="hover:text-white">Docs</a>
+                <a href="#" class="hover:text-white">Updates</a>
+                <a href="#" class="hover:text-white">Blog</a>
+                <a href="#" class="hover:text-white">API</a>
+                <a href="#" class="hover:text-white">Extensions</a>
+                <a href="#" class="hover:text-white">FAQ</a>
+                <a href="#" class="hover:text-white">Learn</a>  
+              </div>
+          </div>
+  
+          <!-- Form and button -->
+          <div class=" hidden lg:flex h-full">
+            <!-- form -->
+            <form action="#">
+              <div id="searchBox" class="xl:bg-textGray h-14 lg:text-textGray lg:bg-transparent xl:w-[190px] flex items-center space-x-2 lg:px-3 xl:px-5">
+                 <img src="./images/Visual Studio Code - Code Editing. Redefined_files/search.svg" alt="" class="w-5">
+                 <span class="text-white lg:hidden xl:flex">Search Docs</span>
+              </div>
+            </form>
+  
+            <!-- Button -->
+            <button class="bg-visualBlue flex items-center justify-center w-40 space-x-2 hover:bg-visualBlueHover">
+              <img src="./images/Visual Studio Code - Code Editing. Redefined_files/download.svg" alt="" class="w-4">
+              <span class="text-white">Download</span>
+            </button>
+          </div>
+        </div>
+      </nav>
+    </div>
+   <!-- End of Nav Section -->
+  </body>
+</html>
