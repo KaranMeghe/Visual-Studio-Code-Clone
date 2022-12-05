@@ -5,15 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+        
     <title>Visual Studio Code - code editor</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js" integrity="sha512-rpLlll167T5LJHwp0waJCh3ZRf7pO6IT1+LZOhAyP6phAirwchClbTZV3iqL3BMrVxIYRbzGTpli4rfxsCK6Vw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
    <!-- Nav Section -->
     <div class="bg-darkGray overflow-x-hidden">
-      <nav class="container relative p-6 h-8 flex items-center md:mx-auto md:h-14">
+      <nav class="container relative p-3 h-8 flex items-center md:mx-auto md:h-14">
         <!-- Flex container for Nav items -->
         <div class="container mx-2 flex flex-col md:justify-start xl:justify-around  md:h-14 md:flex-row">
           <!-- Logo and Menu --> 
@@ -59,11 +62,49 @@
 
    <!-- Version news -->
     <div id="version" class="flex items-center justify-center h-20 bg-midBlack border-b border-[red] md:border-b-0  md:h-12">
-      <p class="container mx-auto text-[#ccc] text-center w-64 md:w-full"><span class="text-visualTextBlue">Version 1.73 </span> &nbsp; is now available! Read about the new features and fixes from October.
+      <p class="container mx-auto text-[#ccc] text-center w-64 md:w-full"><span class="text-visualTextBlue hover:border-b hover:border-visualTextBlue">Version 1.73 </span> &nbsp; is now available! Read about the new features and fixes from October.
       </p>
     </div>
    <!-- End of Version news -->
     
    <!-- Section Hero -->
+    <section id="hero" class="bg-darkGray h-[89vh]">
+      <!-- Hero container -->
+      <div class="container mx-auto flex flex-col h-full py-5 lg:flex-row">
+        <!-- Hero content -->
+         <div class="flex flex-col items-center justify-center space-y-2">
+          <h1 class="text-white text-5xl font-light">Code Editing.</h1>
+          <h1 class="text-white font-medium text-5xl">Redefined.</h1>
+          <p class="text-midGray">Free. Built on open source. Runs everywhere.</p>
+          
+          <!-- Hero Btn -->
+          <div class="flex">
+            <button class="bg-visualBlue py-1 mt-5 px-6 flex flex-col items-center justify-center mr-[2px]">
+              <div class="flex flex-row space-x-1">
+               <img src="./images/Visual Studio Code - Code Editing. Redefined_files/download.svg" alt="" class="h-6 inline-block ">
+               <p class="text-white"> .deb</p>
+              </div>
+              <p class="text-white text-[11px] mt-1">Debian,Ubuntu</p>
+            </button>
+
+            <button class="bg-visualBlue py-1 mt-5 px-6 flex flex-col items-center justify-center mr-[2px]">
+              <div class="flex flex-row space-x-1">
+               <img src="./images/Visual Studio Code - Code Editing. Redefined_files/download.svg" alt="" class="h-6 inline-block ">
+               <p class="text-white"> .rpm</p>
+              </div>
+              <p class="text-white text-[11px] mt-1">Red Hat, Fedora</p>
+            </button>
+
+            <button class="bg-visualBlue py-1 mt-5 px-2 flex flex-col items-center justify-center">
+              <i class="fa-sharp fa-chevron-down h-5 text-white"></i>
+            </button>
+          </div>
+         </div>
+
+         
+        <!-- Hero Img -->
+      </div>
+    </section>
+   <!-- End of Section Hero -->
   </body>
 </html>

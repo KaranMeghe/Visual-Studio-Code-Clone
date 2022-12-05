@@ -22,7 +22,7 @@ module.exports = {
       },
 
       fontFamily : {
-        sans: ['Rubik', 'sans-serif'],
+        sans: ['Lato', 'sans-serif'],
       }
     },
   },
