@@ -802,6 +802,11 @@ video {
   border-color: rgb(255 0 0 / var(--tw-border-opacity));
 }
 
+.border-midGray {
+  --tw-border-opacity: 1;
+  border-color: rgb(157 157 157 / var(--tw-border-opacity));
+}
+
 .bg-darkGray {
   --tw-bg-opacity: 1;
   background-color: rgb(44 44 50 / var(--tw-bg-opacity));
