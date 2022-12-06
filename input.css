@@ -2,3 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+tr td{
+   text-align: center;
+   border-bottom: 1px solid #ccc;
+}
+
+.build-header{
+  padding: 4px;
+}
+
+.os{
+    font-size:13px
+}
+.download-type{
+    font-weight: 300;
+}
+
+/* Hide accordion box */
+.accordion-body{
+    display: none;
+}
+
+
+/* Unhides the content part when active. Sets the height */
+.accordion-body.active{
+    display: block;
+}

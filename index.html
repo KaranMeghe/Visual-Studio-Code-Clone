@@ -68,7 +68,7 @@
    <!-- End of Version news -->
     
    <!-- Section Hero -->
-    <section id="hero" class="bg-darkGray ">
+    <section id="hero" class="relative bg-darkGray ">
       <!-- Hero container -->
       <div class="container mx-auto flex flex-col h-full pt-5 md:py-5 md:flex-row md:items-center md:justify-center">
         <!-- Hero content -->
@@ -78,17 +78,112 @@
           <p class="text-midGray">Free. Built on open source. Runs everywhere.</p>
           
           <!-- Hero Btn -->
-          <div class="flex">
-            <button class="bg-visualBlue py-1 mt-5 px-6 flex flex-col items-center justify-center mr-[2px]">
+          <div class="flex relative">
+            <button class="bg-visualBlue hover:bg-visualBlueHover py-1 mt-5 px-6 flex flex-col items-center justify-center mr-[2px]">
               <div class="flex flex-row space-x-1">
                <p class="text-white">Download Mac Universal</p>
               </div>
               <p class="text-white text-[12px] font-light">Stable Build</p>
             </button>
 
-            <button id="downloads" class="bg-visualBlue py-1 mt-5 px-2 flex flex-col items-center justify-center">
-              <i class="fa-sharp fa-chevron-down h-5 text-white"></i>
+            <button id="downloads" class="download bg-visualBlue  py-1 mt-5 px-2 flex flex-col items-center justify-center">
+              <i class="fa-sharp fa-chevron-down h-5 text-white"></i> 
             </button>
+
+            <!-- Accordion -->
+           <div id="accordion" class="accordion-body absolute top-[101%]">
+            <div class="accordion bg-bgWhite border-2 border-visualBlue w-[17.3rem] md:w-[20rem]">
+              <table class="w-full">
+                <colgroup>
+                  <col span="3">
+                  <col span="2" class="insider-columns">
+                </colgroup>
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th></th>
+                    <th class="build-header text-sm text-textGray font-light">Stable</th>
+                    <th class="build-header text-sm text-textGray font-light bg-[#d7d6d6]">Insiders</th>
+                  </tr>
+                </thead>
+                <tbody class="os-group border-b">
+                  <tr>
+                    <td class="os">macOs</td>
+                    <td class="download-type">Universal</td>
+                    <td>
+                      <a href="#">
+                        <img src="./images/Visual Studio Code - Code Editing. Redefined_files/download_blue.svg" alt="" class="h-[1.2rem] m-[10px]">
+                      </a>
+                    </td>
+                    <td class="bg-[#d7d6d6]">
+                      <a href="#">
+                        <img src="./images/Visual Studio Code - Code Editing. Redefined_files/download-black.svg" alt="" class="h-[1.2rem] m-[10px]">
+                      </a>
+                    </td>
+                  </tr>
+                </tbody>
+
+                <tbody class="os-group">
+                  <tr>
+                    <td class="os">Windows x64</td>
+                    <td class="download-type">User Installer</td>
+                    <td>
+                      <a href="#">
+                        <img src="./images/Visual Studio Code - Code Editing. Redefined_files/download_blue.svg" alt="" class="h-[1.2rem] m-[10px]">
+                      </a>
+                    </td>
+                    <td class="bg-[#d7d6d6]">
+                      <a href="#">
+                        <img src="./images/Visual Studio Code - Code Editing. Redefined_files/download-black.svg" alt="" class="h-[1.2rem] m-[10px]">
+                      </a>
+                    </td>
+                  </tr>
+                </tbody>
+
+                <tbody class="os-group">
+                  <tr>
+                    <td class="os">Linux x63</td>
+                    <td class="download-type">.deb</td>
+                    <td>
+                      <a href="#">
+                        <img src="./images/Visual Studio Code - Code Editing. Redefined_files/download_blue.svg" alt="" class="h-[1.2rem] m-[10px]">
+                      </a>
+                    </td>
+                    <td class="bg-[#d7d6d6]">
+                      <a href="#">
+                        <img src="./images/Visual Studio Code - Code Editing. Redefined_files/download-black.svg" alt="" class="h-[1.2rem] m-[10px]">
+                      </a>
+                    </td>
+                  </tr>
+                </tbody>
+
+                <tbody>
+                  <tr>
+                    <td></td>
+                    <td class="download-type">.rpm</td>
+                    <td>
+                      <a href="#">
+                        <img src="./images/Visual Studio Code - Code Editing. Redefined_files/download_blue.svg" alt="" class="h-[1.2rem] m-[10px]">
+                      </a>
+                    </td>
+                    <td class="bg-[#d7d6d6]">
+                      <a href="#">
+                        <img src="./images/Visual Studio Code - Code Editing. Redefined_files/download-black.svg" alt="" class="h-[1.2rem] m-[10px]">
+                      </a>
+                    </td>
+                  </tr>
+
+                 <tr>
+                  <td colspan="4" rowspan="2" class="p-4 font-light">
+                    <p class="text-black"><span class="text-visualTextBlue hover:border-b hover:border-visualTextBlue">Other downloads </span> or <span class="text-visualTextBlue hover:border-b hover:border-visualTextBlue">open on web app </span>
+                    </p>
+                  </td>
+                 </tr>
+                </tbody>
+              </table>
+            </div>
+           </div>
+          <!-- End of accordion -->
           </div>
 
            <div class="bg-midBlack px-2 py-4 rounded-md">
@@ -100,7 +195,7 @@
             <h5 class="text-[#ccc] text-[13px] font-light">By using VS Code, you agree to its</h5>
             <p class="text-[#ccc] text-[11px] text-center"><sapn class="text-visualTextBlue hover:border-b hover:border-visualTextBlue">license and privacy statement</sapn> .</p>
            </div>
-
+        
          </div>
          
         <!-- Hero Img -->
@@ -110,5 +205,7 @@
       </div>
     </section>
    <!-- End of Section Hero -->
+
+   <script src="./script.js"></script>
   </body>
 </html>
