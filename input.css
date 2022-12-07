@@ -30,3 +30,16 @@ tr td{
 .accordion-body.active{
     display: block;
 }
+
+.download{
+    position: relative;
+}
+
+.download::before{
+content: 'v';
+position: absolute;
+color: #fff;
+font-size: 20px;
+font-weight: 300;
+text-align: center;
+}
