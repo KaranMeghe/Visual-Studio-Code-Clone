@@ -16,15 +16,15 @@
   <body>
    <!-- Nav Section -->
     <div class="bg-darkGray overflow-x-hidden">
-      <nav class="container relative p-3 h-8 flex items-center mx-auto h:20 md:h-20">
+      <nav class="container relative p-3 flex items-center mx-auto h-14 md:h-14">
         <!-- Flex container for Nav items -->
         <div class="container mx-2 flex flex-col md:justify-start xl:justify-around  md:h-14 md:flex-row">
           <!-- Logo and Menu --> 
           <div id="logoMenu" class="flex items-center">
               <!-- Logo -->
-              <div id="logo" class="flex items-center w-[280px]">
+              <div id="logo" class="flex items-center w-[280px] z-50">
                 <img src="./images/vscode.svg" alt="" class="h-8">
-                <span class="text-white ml-2 md:text-[20px]">Visual Studio Code</span>
+                <span class="text-white ml-2 font-light text-[24px] md:font-normal">Visual Studio Code</span>
               </div>
   
               <!-- Menu Items -->
@@ -58,43 +58,46 @@
         </div>
 
         <!-- Hamburger menu -->
-        <button id="menu-btn" class="z-30 block h-full lg:hidden focus:outline-none hamburger">
-          <span class="hamburger-top"></span>
-          <span class="hamburger-middle"></span>
-          <span class="hamburger-bottom"></span>
-        </button>
+        <div id="background">
+          <button id="menu-btn" class="z-30 block h-full lg:hidden focus:outline-none hamburger">
+            <span class="hamburger-top"></span>
+            <span class="hamburger-middle"></span>
+            <span class="hamburger-bottom"></span>
+          </button>
+        </div>
+        
 
               <!-- Mobile menu -->
-          <div id="menu" class="fixed inset-0 z-20 hidden flex-col self-end border-b-4 border-visualTextBlue items-center w-full h-[30rem]  max-h-screen px-6 py-1 pt-24 pb-4 tracking-widest text-white uppercase  bg-midBlack">
-            <div class="w-full py-3 text-left">
-                <a href="#" class="blockhover:text-white">Docs</a>
+          <div id="menu" class="fixed inset-0 z-20 hidden flex-col self-end border-b-4 border-visualTextBlue items-center w-full h-[30rem] max-h-screen px-6  pt-20 pb-4 tracking-widest text-white text-[14px] uppercase  bg-midBlack">
+            <div class="w-full py-3 text-left font-light">
+                <a href="#" class="block hover:text-white">Docs</a>
             </div>
 
-            <div class="w-full py-3 text-left">
+            <div class="w-full py-3 text-left font-light">
               <a href="#" class="block hover:text-white">Updates</a>
             </div>
 
-            <div class="w-full py-3 text-left">
+            <div class="w-full py-3 text-left font-light">
               <a href="#" class="block hover:text-white">Blogs</a>
             </div>
 
-            <div class="w-full py-3 text-left">
+            <div class="w-full py-3 text-left font-light">
               <a href="#" class="block hover:text-white">Blogs</a>
             </div>
 
-            <div class="w-full py-3 text-left">
+            <div class="w-full py-3 text-left font-light">
               <a href="#" class="block hover:text-white">API</a>
             </div>
 
-            <div class="w-full py-3 text-left">
+            <div class="w-full py-3 text-left font-light">
               <a href="#" class="block hover:text-white">Extensions</a>
             </div>
 
-            <div class="w-full py-3 text-left">
+            <div class="w-full py-3 text-left font-light">
               <a href="#" class="block hover:text-white">FAQ</a>
             </div>
 
-            <div class="w-full py-3 text-left">
+            <div class="w-full py-3 text-left font-light">
               <a href="#" class="block hover:text-white">Learn</a>
             </div>
 

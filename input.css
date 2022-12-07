@@ -46,20 +46,29 @@ text-align: center;
 
 
 /* Hamburger Menu */
+.background{
+    background-color: #0066b8;
+    padding:0 8px;
+    position: relative;
+    border-radius: 4px;
+}
+
 .hamburger {
     cursor: pointer;
     width: 22px;
-    height: 22px;
+    height: 30px;
     transition: all 0.25s;
     position: relative;
+    top: 7px;
+    padding: 10px;
   }
   
   .hamburger-top,
   .hamburger-middle,
   .hamburger-bottom {
     position: absolute;
-    width: 24px;
-    height: 3px;
+    width: 22px;
+    height: 2px;
     top: 0;
     left: 0;
     background: #fff;
@@ -76,24 +85,4 @@ text-align: center;
   }
   
   
-  .open {
-    transform: rotate(90deg);
-    transform: translateY(0px);
-    position: fixed;
-    top: 50px;
-    right: 25px;
-  }
   
-  .open .hamburger-top {
-    transform: rotate(45deg) translateY(6px) translateX(6px);
-    background-color: #fff;
-  }
-  
-  .open .hamburger-middle {
-    display: none;
-  }
-  
-  .open .hamburger-bottom {
-    transform: rotate(-45deg) translateY(6px) translateX(-6px);
-    background-color: #fff;
-  }
