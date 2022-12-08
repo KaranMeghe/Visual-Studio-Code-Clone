@@ -8,10 +8,13 @@ const background = document.getElementById('background');
 
 // Hamburger event listner
 btn.addEventListener('click', ()=>{
-background.classList.add('background');
+
+ background.classList.add('background-ham');
+
 // btn.classList.toggle('open');
 menu.classList.toggle('flex');
 menu.classList.toggle('hidden');
+menu.classList.add('menu');
 });
 
 // Event listner on download button
