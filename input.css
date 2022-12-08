@@ -4,9 +4,13 @@
 
 
 
-tr td{
-   text-align: center;
-   border-bottom: 1px solid #ccc;
+tr:not(.none){
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+
+.none{
+  text-align: center;
 }
 
 .build-header{
