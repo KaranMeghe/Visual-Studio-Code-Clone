@@ -5,6 +5,11 @@ const result = button.contains(icon);
 const btn = document.getElementById('menu-btn');
 const menu = document.querySelector('#menu');
 const background = document.getElementById('background');
+const sliderMain = document.querySelector('.slider-main');
+const testBox = document.getElementsByClassName('tb');
+const prevBtn = document.querySelector('.prev-button');
+const nextBtn = document.querySelector('.next-button');
+
 
 // Hamburger event listner
 btn.addEventListener('click', ()=>{
@@ -28,3 +33,12 @@ window.addEventListener('click', (e)=>{
         accordion.classList.remove('active');
      } 
    });
+
+  // testomonial buttons event listners    
+   nextBtn.addEventListener('click',()=>{
+    sliderMain.append(testBox[0]);
+   })
+
+   prevBtn.addEventListener('click', ()=>{
+    sliderMain.prepend(testBox[testBox.length -1]);
+   })
