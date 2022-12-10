@@ -42,3 +42,5 @@ window.addEventListener('click', (e)=>{
    prevBtn.addEventListener('click', ()=>{
     sliderMain.prepend(testBox[testBox.length -1]);
    })
+
+   

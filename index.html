@@ -267,13 +267,13 @@
       <!-- Row 1️ -->
       <div class="flex justify-around lg:w-full">
         <!-- Box 1 -->
-        <div id="intilliSence" class="flex flex-col space-y-2 py-4 w-1/2 hover:bg-[#ccc] text-center md:space-y-4">
+        <div class="flex flex-col space-y-2 py-4 w-1/2 hover:bg-[#ccc] text-center md:space-y-4">
           <i class="fa-regular fa-lightbulb h-10 md:h-14 text-gray-700  hover:text-indigo-700 transition-[0.3s]"></i>
           <p class="text-lg">IntilliSence</p>
         </div>
 
         <!-- Box 2 -->
-        <div id="intilliSence" class="flex flex-col space-y-2 py-4 w-1/2  hover:bg-[#ccc]  text-center md:space-y-4">
+        <div id="bug" class="flex flex-col space-y-2 py-4 w-1/2  hover:bg-[#ccc]  text-center md:space-y-4">
           <i class="fa-solid fa-bug h-10 md:h-14 text-gray-700 hover:text-green-500 transition-[0.3s]"></i>
           <p class="text-lg">Run and Debug</p>
         </div>
@@ -298,7 +298,7 @@
     <!-- End of Section Features -->
     
     <!-- Section testimonial -->
-     <section id="testiomnial" class="bg-bgWhite h-[100vh] lg:h-80 py-10 mb-10 lg:py-0">
+     <section id="testiomnial" class="bg-bgWhite h-[100vh] lg:h-80 py-10 mb-10 lg:py-0 overflow-y-hidden">
       <div class="slider-wrap relative container mx-auto flex flex-col h-full lg:flex-row">
          <div class="slider-main  w-[70%] mx-auto flex flex-col items-center justify-center space-y-10  overflow-x-hidden overflow-y-hidden h-full lg:flex-row">
            
@@ -426,23 +426,103 @@
                 <p class="font-light">VS Code will have deep remote development. You can connect to a container running a different OS and use any VS Code plugins, linting, debugging for that environment. 🔥🔥🔥</p>
               </div>
           </div>
-
-         </div>
-
-          
-
-        <!-- Buttons -->
-        <div class="btn-area-1 absolute left-[12%]">
-          <button class="prev-button top-0 left-0"><i class="fa-solid fa-chevron-left text-[20px]"></i></button>
         </div>
 
-        <div class="btn-area-2 absolute right-[10%]">
-          <button class="next-button"><i class="fa-solid fa-chevron-right text-[20px]"></i></button>
-        </div>
+          <!-- Buttons -->
+          <div class="btn-area-1 absolute left-[12%]">
+            <button class="prev-button top-0 left-0"><i class="fa-solid fa-chevron-left text-[20px]"></i></button>
+          </div>
+
+          <div class="btn-area-2 absolute right-[10%]">
+            <button class="next-button"><i class="fa-solid fa-chevron-right text-[20px]"></i></button>
+          </div>
        </div>
       </div>
      </section>
     <!--End of Section testimonial -->
+    
+    <!-- Section Features-details -->
+        <section id="f-details" class="my-10">
+          <!-- 1 -->
+         <div class="container mx-auto flex flex-col items-center py-10  lg:flex-row" id="intilliSence">
+            <!-- Image -->
+            <div class="w-1/2 mt-8">
+              <img src="./images/Visual Studio Code - Code Editing. Redefined_files/home-intellisense.svg" alt="" class="mx-auto">
+            </div>
+            <!-- Container -->
+            <div class="w-full px-5 text-left lg:mt-[-30px]  text-textGray lg:w-1/2">
+              <h2 class=" font-light lg:text-3xl">Meet IntelliSense.</h2>
+              <p class="text-[16px] text-textGray font-thin leading-6 lg:leading-10 mt-[30px] lg:w-[80%] lg:text-[18px]">Go beyond syntax highlighting and autocomplete with IntelliSense, which provides smart completions based on variable types, function definitions, and imported modules.</p>
+            </div>
+         </div>
+
+         <!-- 2 -->
+         <div class="w-full bg-bgWhite">
+         <div class="container mx-auto flex flex-col items-center py-10 lg:flex-row-reverse">
+          <!-- Image -->
+            <div class="w-1/2 mt-8">
+              <img src="./images/Visual Studio Code - Code Editing. Redefined_files/home-debug.svg" alt="" class="mx-auto">
+            </div>
+            <!-- Container -->
+            <div class="w-full px-5 text-left lg:mt-[-30px]  text-textGray lg:w-1/2">
+              <h2 class=" font-light lg:text-3xl">Print statement debugging is a thing of the past.
+              </h2>
+              <p class="text-[16px] text-textGray font-thin leading-6 lg:leading-10 mt-[30px] lg:w-[82%] lg:text-[18px]">Debug code right from the editor. Launch or attach to your running apps and debug with break points, call stacks, and an interactive console.</p>
+            </div>
+          </div>
+          </div>
+
+          <!-- 3 -->
+         <div class="container mx-auto flex flex-col items-center py-10 lg:flex-row" id="intilliSence">
+          <!-- Image -->
+          <div class="w-1/2 mt-8">
+            <img src="./images/Visual Studio Code - Code Editing. Redefined_files/home-git.svg" alt="" class="mx-auto">
+          </div>
+          <!-- Container -->
+          <div class="w-full px-5 text-left lg:mt-[-30px]  text-textGray lg:w-1/2">
+            <h2 class=" font-light lg:text-3xl">Git commands built-in.</h2>
+            <p class="text-[16px] text-textGray font-thin leading-6 lg:leading-10 mt-[30px] lg:w-[80%] lg:text-[18px]">Working with Git and other SCM providers has never been easier. Review diffs, stage files, and make commits right from the editor. Push and pull from any hosted SCM service.</p>
+          </div>
+       </div>
+
+
+        <!-- 4 -->
+        <div class="w-full bg-bgWhite">
+          <div class="container mx-auto flex flex-col items-center py-10 lg:flex-row-reverse">
+           <!-- Image -->
+             <div class="w-1/2 mt-8">
+               <img src="./images/Visual Studio Code - Code Editing. Redefined_files/Hundreds-of-Extensions.png" alt="" class="mx-auto w-full lg:w-[50%]">
+             </div>
+             <!-- Container -->
+             <div class="w-full px-5 text-left lg:mt-[-30px] mt-5   text-textGray lg:w-1/2 lg:mt-0">
+               <h2 class=" font-light lg:text-3xl">Extensible and customizable.
+               </h2>
+               <p class="text-[16px] text-textGray font-thin leading-6 lg:leading-10 mt-[30px] lg:w-[85%] lg:text-[18px]">Want even more features? Install extensions to add new languages, themes, debuggers, and to connect to additional services. Extensions run in separate processes, ensuring they won't slow down your editor.
+                <span class="text-visualTextBlue font-light hover:border-b hover:border-visualTextBlue"> Learn more about extensions.
+                </span>
+               </p>
+             </div>
+           </div>
+           </div>
+           
+           <!-- 5 -->
+           <div class="container mx-auto flex flex-col items-center py-10 lg:flex-row" id="intilliSence">
+            <!-- Image -->
+            <div class="w-1/2 mt-8">
+              <img src="./images/Visual Studio Code - Code Editing. Redefined_files/home-azure.svg" alt="" class="mx-auto">
+            </div>
+            <!-- Container -->
+            <div class="w-full px-5 text-left lg:mt-[-30px]  text-textGray lg:w-1/2">
+              <h2 class=" font-light lg:text-3xl">Deploy with confidence and ease
+              </h2>
+              <p class="text-[16px] text-textGray font-thin leading-6 lg:leading-10 mt-[30px] lg:w-[80%] lg:text-[18px]">With <span class="text-visualTextBlue font-light hover:border-b hover:border-visualTextBlue"> Microsoft Azure </span> you can deploy and host your React, Angular, Vue, Node, Python (and more!) sites, store and query relational and document based data, and scale with serverless computing, all with ease,
+                <span class="text-visualTextBlue font-light hover:border-b hover:border-visualTextBlue">all from within VS Code. </span> 
+
+              </p>
+            </div>
+         </div>
+        </section>
+    <!-- End of Section Features-details -->
 
     
    <script src="./script.js"></script>
