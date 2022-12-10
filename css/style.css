@@ -687,6 +687,11 @@ video {
   margin-bottom: 5rem;
 }
 
+.my-6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
 .ml-2 {
   margin-left: 0.5rem;
 }
@@ -1095,6 +1100,10 @@ video {
   height: 115vh;
 }
 
+.h-1 {
+  height: 0.25rem;
+}
+
 .w-\[280px\] {
   width: 280px;
 }
@@ -1207,6 +1216,42 @@ video {
   width: 1-0%;
 }
 
+.w-\[8\%\] {
+  width: 8%;
+}
+
+.w-\[85\%\] {
+  width: 85%;
+}
+
+.w-\[1\] {
+  width: 1;
+}
+
+.w-\[19\] {
+  width: 19;
+}
+
+.w-\[10\] {
+  width: 10;
+}
+
+.w-\[106\] {
+  width: 106;
+}
+
+.w-\[106\%\] {
+  width: 106%;
+}
+
+.w-\[16\%\] {
+  width: 16%;
+}
+
+.w-\[116\%\] {
+  width: 116%;
+}
+
 .scroll-my-6 {
   scroll-margin-top: 1.5rem;
   scroll-margin-bottom: 1.5rem;
@@ -1294,6 +1339,12 @@ video {
   --tw-space-y-reverse: 0;
   margin-top: calc(24rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(24rem * var(--tw-space-y-reverse));
+}
+
+.space-y-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
 }
 
 .self-end {
@@ -1453,6 +1504,21 @@ video {
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
+}
+
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.py-24 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .pt-20 {
@@ -1931,6 +1997,12 @@ tr:not(.none){
     margin-bottom: calc(1rem * var(--tw-space-y-reverse));
   }
 
+  .md\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(0px * var(--tw-space-y-reverse));
+  }
+
   .md\:border-b-0 {
     border-bottom-width: 0px;
   }
@@ -2008,6 +2080,58 @@ tr:not(.none){
 
   .lg\:w-\[50\%\] {
     width: 50%;
+  }
+
+  .lg\:w-1 {
+    width: 0.25rem;
+  }
+
+  .lg\:w-\[\] {
+    width: ;
+  }
+
+  .lg\:w-\[4\] {
+    width: 4;
+  }
+
+  .lg\:w-\[45\] {
+    width: 45;
+  }
+
+  .lg\:w-\[45\%\] {
+    width: 45%;
+  }
+
+  .lg\:w-\[\%\] {
+    width: %;
+  }
+
+  .lg\:w-\[9\%\] {
+    width: 9%;
+  }
+
+  .lg\:w-\[90\%\] {
+    width: 90%;
+  }
+
+  .lg\:w-\[4\%\] {
+    width: 4%;
+  }
+
+  .lg\:w-\[3\%\] {
+    width: 3%;
+  }
+
+  .lg\:w-\[39\%\] {
+    width: 39%;
+  }
+
+  .lg\:w-\[116\%\] {
+    width: 116%;
+  }
+
+  .lg\:w-\[88\%\] {
+    width: 88%;
   }
 
   .lg\:flex-row {
