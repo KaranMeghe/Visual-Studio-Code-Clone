@@ -610,6 +610,114 @@ video {
   right: 12%;
 }
 
+.right-\[1\%\] {
+  right: 1%;
+}
+
+.right-\[10\%\] {
+  right: 10%;
+}
+
+.right-\[14\%\] {
+  right: 14%;
+}
+
+.left-\[1\%\] {
+  left: 1%;
+}
+
+.left-\[10\%\] {
+  left: 10%;
+}
+
+.left-\[14\%\] {
+  left: 14%;
+}
+
+.left-\[16\%\] {
+  left: 16%;
+}
+
+.right-\[-14\%\] {
+  right: -14%;
+}
+
+.right-\[4\%\] {
+  right: 4%;
+}
+
+.right-\[24\%\] {
+  right: 24%;
+}
+
+.right-\[34\%\] {
+  right: 34%;
+}
+
+.right-\[44\%\] {
+  right: 44%;
+}
+
+.right-\[64\%\] {
+  right: 64%;
+}
+
+.right-\[74\%\] {
+  right: 74%;
+}
+
+.right-\[84\%\] {
+  right: 84%;
+}
+
+.right-\[8\%\] {
+  right: 8%;
+}
+
+.right-\[82\%\] {
+  right: 82%;
+}
+
+.left-\[84\%\] {
+  left: 84%;
+}
+
+.left-\[4\%\] {
+  left: 4%;
+}
+
+.top-4 {
+  top: 1rem;
+}
+
+.top-5 {
+  top: 1.25rem;
+}
+
+.left-\[\%\] {
+  left: %;
+}
+
+.left-\[\] {
+  left: ;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.left-\[1\] {
+  left: 1;
+}
+
+.left-\[14\] {
+  left: 14;
+}
+
 .z-50 {
   z-index: 50;
 }
