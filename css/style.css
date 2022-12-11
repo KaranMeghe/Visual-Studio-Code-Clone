@@ -1109,6 +1109,14 @@ video {
   height: 0.25rem;
 }
 
+.h-\[12vh\] {
+  height: 12vh;
+}
+
+.h-\[116vh\] {
+  height: 116vh;
+}
+
 .w-\[280px\] {
   width: 280px;
 }
