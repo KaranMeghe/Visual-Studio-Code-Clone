@@ -4,7 +4,7 @@
 
 
 
-tr:not(.none){
+.accordion tr:not(.none){
     border-bottom: 1px solid #ccc;
     text-align: center;
 }
@@ -92,5 +92,7 @@ text-align: center;
   }
 
 
-  
+  .border{
+  border: none;
+  }
   
